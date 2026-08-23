@@ -51,12 +51,12 @@ const nextConfig: NextConfig = {
       {
         source: "/checkout/complete",
         destination: "/shop/checkout/success",
-        permanent: false,
+        permanent: true,
       },
       {
         source: "/shop/checkout/complete",
         destination: "/shop/checkout/success",
-        permanent: false,
+        permanent: true,
       },
     ];
   },

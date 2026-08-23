@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 import { generateMetadata as sharedGenerateMetadata } from "../../shop/[id]/page";
 
 export const generateMetadata = sharedGenerateMetadata;
@@ -10,5 +10,5 @@ export default async function ProductRedirect({
  params: Promise<{ id: string }>;
 }) {
  const { id } = await params;
- redirect(`/shop/${id}`);
+ permanentRedirect(`/shop/${id}`);
 }
