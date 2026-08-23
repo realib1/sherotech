@@ -39,7 +39,7 @@ const LandingSecurity = () => {
       </div>
       
       {/* Glow effect at top */}
-      <div className="absolute top-0 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-brand-primary-500/10 opacity-20 blur-[100px]" />
+      <div className="absolute top-0 left-1/2 h-125 w-200 -translate-x-1/2 rounded-full bg-brand-primary-500/10 opacity-20 blur-[100px]" />
 
       <div className="container relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center mb-16 sm:mb-20">
@@ -62,7 +62,7 @@ const LandingSecurity = () => {
             className="text-2xl font-bold tracking-tight text-white sm:text-3xl"
           >
             Secure By{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary-400 to-white">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-primary-400 to-white">
               Design.
             </span>
           </m.h2>
@@ -88,10 +88,10 @@ const LandingSecurity = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 * index }}
-                className="group relative rounded border border-white/5 bg-white/[0.02] p-8 transition-colors hover:bg-white/[0.04] hover:border-brand-primary-500/30 overflow-hidden"
+                className="group relative rounded border border-white/5 bg-white/2 p-8 transition-colors hover:bg-white/4 hover:border-brand-primary-500/30 overflow-hidden"
               >
                 {/* Hover gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-brand-primary-500/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                <div className="absolute inset-0 bg-linear-to-br from-brand-primary-500/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 
                 <div className="relative z-10 flex items-start gap-5">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded bg-brand-primary-500/10 border border-brand-primary-500/20 text-brand-primary-400 group-hover:bg-brand-primary-500 group-hover:text-slate-950 transition-colors duration-300">

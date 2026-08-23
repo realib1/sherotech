@@ -165,7 +165,7 @@ const ServicesGrid = () => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed flex-grow">
+                <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed grow">
                   {service.description}
                 </p>
 

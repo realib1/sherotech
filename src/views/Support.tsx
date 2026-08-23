@@ -68,7 +68,7 @@ const Support = () => {
                 Customer Support
               </SectionBadge>
             </div>
-            <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-6 tracking-tight transition-colors duration-300 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 fill-mode-both">
+            <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-6 tracking-tight animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 fill-mode-both">
               Get Help in <span className="text-brand-secondary-700 dark:text-brand-secondary-400">Minutes</span>
             </h1>
             <p className="text-muted-foreground text-base max-w-2xl mx-auto mb-8 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 fill-mode-both">

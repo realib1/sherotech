@@ -124,7 +124,7 @@ const LandingAbout = () => {
                 style={{ animation: "spin 45s linear infinite" }}
               >
                 <div 
-                  className="absolute top-[-16px] left-1/2 -translate-x-1/2 pointer-events-auto"
+                  className="absolute -top-4 left-1/2 -translate-x-1/2 pointer-events-auto"
                   style={{ animation: "spin 45s linear infinite reverse" }}
                 >
                   <FloatingCard
@@ -141,7 +141,7 @@ const LandingAbout = () => {
                 style={{ animation: "spin 45s linear infinite" }}
               >
                 <div 
-                  className="absolute bottom-[-16px] left-1/2 -translate-x-1/2 pointer-events-auto"
+                  className="absolute -bottom-4 left-1/2 -translate-x-1/2 pointer-events-auto"
                   style={{ animation: "spin 45s linear infinite reverse" }}
                 >
                   <FloatingCard
@@ -158,7 +158,7 @@ const LandingAbout = () => {
                 style={{ animation: "spin 45s linear infinite" }}
               >
                 <div 
-                  className="absolute right-[-16px] top-1/2 -translate-y-1/2 pointer-events-auto"
+                  className="absolute -right-4 top-1/2 -translate-y-1/2 pointer-events-auto"
                   style={{ animation: "spin 45s linear infinite reverse" }}
                 >
                   <FloatingCard

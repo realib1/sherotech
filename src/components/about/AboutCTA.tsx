@@ -13,8 +13,8 @@ const AboutCTA = () => {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 overflow-hidden"
       >
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[320px] bg-brand-secondary-500/10 dark:bg-brand-secondary-500/15 rounded-full blur-[90px] transition-colors duration-300" />
-        <div className="absolute top-1/3 left-1/4 w-[280px] h-[280px] bg-emerald-500/10 dark:bg-emerald-500/10 rounded-full blur-[80px] transition-colors duration-300" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-80 bg-brand-secondary-500/10 dark:bg-brand-secondary-500/15 rounded-full blur-[90px] transition-colors duration-300" />
+        <div className="absolute top-1/3 left-1/4 w-70 h-70 bg-emerald-500/10 dark:bg-emerald-500/10 rounded-full blur-[80px] transition-colors duration-300" />
       </div>
 
       <div className="container px-4 md:px-6 relative z-10 w-full mx-auto md:w-11/12 max-w-5xl">

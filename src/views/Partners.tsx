@@ -67,7 +67,7 @@ const Partners = () => {
               Strategic Partnerships
             </SectionBadge>
             <h1 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-100 mb-6 tracking-tight transition-colors duration-300">
-              Grow with <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary-600 to-brand-secondary-600 dark:from-brand-primary-500 dark:to-brand-secondary-500">SHERO</span>
+              Grow with <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-primary-600 to-brand-secondary-600 dark:from-brand-primary-500 dark:to-brand-secondary-500">SHERO</span>
             </h1>
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
               Collaborate on technology projects, unlock distribution
